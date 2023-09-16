@@ -12,7 +12,7 @@ const UserPage = async () => {
 // next revalidate will make it so the fetch request will run every 10 seconds to check the backend and cache/display new info
     const res = await fetch("https://jsonplaceholder.typicode.com/users",{next:{revalidate:10}})
     const users: User[] = await res.json()
-    
+
 
 
     return (
