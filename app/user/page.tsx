@@ -18,6 +18,7 @@ const UserPage = async () => {
     return (
         <>
             <p>User page</p>
+            <p>{new Date().toLocaleTimeString()}</p>
             <ul>
                 {users.map(user=><li key={user.id}>{user.name}</li>)}
             </ul>
