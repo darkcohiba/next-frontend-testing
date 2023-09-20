@@ -19,7 +19,7 @@ export default async function Home() {
       {category.map(cat => <Link className="border-red-200 border-4 bg-pink-400" key={cat.id} href={`/categories/${cat.name}`}>{cat.name}</Link>)}
 
 
-      <UserButton title="sam"/>
+      <UserButton />
     </main>
   )
 }
