@@ -1,24 +1,29 @@
 'use client'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 
-const CategoryBar = async () => {
+const CategoryBar = () => {
     const router = useRouter()
+    const [category, setCategories] = useState([])
 
 
-    const res = await fetch("http://localhost:5000/category", { next: { revalidate: 10 } })
-    const category = await res.json()
-    console.log(category)
+    useEffect(()=>{
+        fetch("http://localhost:5000/category", { next: { revalidate: 10 } })
+        .then(response=> response.json())
+        .then(data => setCategories(data))
+    },[])
+
+
     const categoryButtons = category.map((cat)=>
-    <button className='' onClick={() => router.push('/', { scroll: false })}>
+    <button className='h-24 w-24 m-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500' onClick={() => router.push(`categories/${cat.name}`, { scroll: false })}>
         {cat.name}
     </button>
     )
   
   return (
     <div>
-
+        {categoryButtons}
     </div>
   )
 }
