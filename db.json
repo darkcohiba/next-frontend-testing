@@ -1,0 +1,284 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "T-Shirts"
+        },
+        {
+            "id": 2,
+            "name": "Jeans"
+        },
+        {
+            "id": 3,
+            "name": "Jackets"
+        },
+        {
+            "id": 4,
+            "name": "Shoes"
+        },
+        {
+            "id": 5,
+            "name": "Hats"
+        },
+        {
+            "id": 6,
+            "name": "Sunglasses"
+        },
+        {
+            "id": 7,
+            "name": "Watches"
+        },
+        {
+            "id": 8,
+            "name": "Belts"
+        },
+        {
+            "id": 9,
+            "name": "Scarves"
+        },
+        {
+            "id": 10,
+            "name": "Socks"
+        }
+    ],
+    "items": [
+        {
+            "id": 101,
+            "name": "Graphic Tee",
+            "description": "A cool graphic tee.",
+            "price": 19.99,
+            "categoryId": 1
+        },
+        {
+            "id": 102,
+            "name": "Striped Tee",
+            "description": "A classic striped t-shirt.",
+            "price": 24.99,
+            "categoryId": 1
+        },
+        {
+            "id": 103,
+            "name": "Plain White Tee",
+            "description": "A plain white t-shirt.",
+            "price": 14.99,
+            "categoryId": 1
+        },
+        {
+            "id": 104,
+            "name": "V-Neck Tee",
+            "description": "A comfortable v-neck tee.",
+            "price": 22.99,
+            "categoryId": 1
+        },
+        {
+            "id": 105,
+            "name": "Long Sleeve Tee",
+            "description": "A warm long sleeve tee.",
+            "price": 29.99,
+            "categoryId": 1
+        },
+        {
+            "id": 201,
+            "name": "Slim Fit Jeans",
+            "description": "Comfortable slim fit jeans.",
+            "price": 49.99,
+            "categoryId": 2
+        },
+        {
+            "id": 202,
+            "name": "Bootcut Jeans",
+            "description": "Classic bootcut jeans.",
+            "price": 54.99,
+            "categoryId": 2
+        },
+        {
+            "id": 203,
+            "name": "Straight Jeans",
+            "description": "Straight cut jeans.",
+            "price": 52.99,
+            "categoryId": 2
+        },
+        {
+            "id": 204,
+            "name": "Ripped Jeans",
+            "description": "Trendy ripped jeans.",
+            "price": 59.99,
+            "categoryId": 2
+        },
+        {
+            "id": 205,
+            "name": "High Waist Jeans",
+            "description": "Stylish high waist jeans.",
+            "price": 56.99,
+            "categoryId": 2
+        },
+        {
+            "id": 301,
+            "name": "Leather Jacket",
+            "description": "A stylish leather jacket.",
+            "price": 129.99,
+            "categoryId": 3
+        },
+        {
+            "id": 302,
+            "name": "Denim Jacket",
+            "description": "Classic denim jacket.",
+            "price": 89.99,
+            "categoryId": 3
+        },
+        {
+            "id": 303,
+            "name": "Bomber Jacket",
+            "description": "Casual bomber jacket.",
+            "price": 99.99,
+            "categoryId": 3
+        },
+        {
+            "id": 401,
+            "name": "Running Shoes",
+            "description": "Comfortable running shoes.",
+            "price": 79.99,
+            "categoryId": 4
+        },
+        {
+            "id": 402,
+            "name": "Casual Sneakers",
+            "description": "Stylish casual sneakers.",
+            "price": 69.99,
+            "categoryId": 4
+        },
+        {
+            "id": 403,
+            "name": "Formal Shoes",
+            "description": "Elegant formal shoes.",
+            "price": 99.99,
+            "categoryId": 4
+        },
+        {
+            "id": 501,
+            "name": "Baseball Cap",
+            "description": "Casual baseball cap.",
+            "price": 19.99,
+            "categoryId": 5
+        },
+        {
+            "id": 502,
+            "name": "Beanie",
+            "description": "Warm beanie hat.",
+            "price": 14.99,
+            "categoryId": 5
+        },
+        {
+            "id": 503,
+            "name": "Fedora",
+            "description": "Stylish fedora hat.",
+            "price": 24.99,
+            "categoryId": 5
+        },
+        {
+            "id": 601,
+            "name": "Aviator Sunglasses",
+            "description": "Classic aviator sunglasses.",
+            "price": 79.99,
+            "categoryId": 6
+        },
+        {
+            "id": 602,
+            "name": "Wayfarer Sunglasses",
+            "description": "Timeless wayfarer style.",
+            "price": 69.99,
+            "categoryId": 6
+        },
+        {
+            "id": 603,
+            "name": "Round Sunglasses",
+            "description": "Trendy round sunglasses.",
+            "price": 74.99,
+            "categoryId": 6
+        },
+        {
+            "id": 701,
+            "name": "Digital Watch",
+            "description": "Modern digital watch.",
+            "price": 99.99,
+            "categoryId": 7
+        },
+        {
+            "id": 702,
+            "name": "Analog Watch",
+            "description": "Classic analog watch.",
+            "price": 119.99,
+            "categoryId": 7
+        },
+        {
+            "id": 703,
+            "name": "Sport Watch",
+            "description": "Durable sport watch.",
+            "price": 89.99,
+            "categoryId": 7
+        },
+        {
+            "id": 801,
+            "name": "Leather Belt",
+            "description": "Elegant leather belt.",
+            "price": 29.99,
+            "categoryId": 8
+        },
+        {
+            "id": 802,
+            "name": "Canvas Belt",
+            "description": "Durable canvas belt.",
+            "price": 19.99,
+            "categoryId": 8
+        },
+        {
+            "id": 803,
+            "name": "Braided Belt",
+            "description": "Stylish braided belt.",
+            "price": 24.99,
+            "categoryId": 8
+        },
+        {
+            "id": 901,
+            "name": "Wool Scarf",
+            "description": "Warm wool scarf.",
+            "price": 39.99,
+            "categoryId": 9
+        },
+        {
+            "id": 902,
+            "name": "Silk Scarf",
+            "description": "Elegant silk scarf.",
+            "price": 49.99,
+            "categoryId": 9
+        },
+        {
+            "id": 903,
+            "name": "Cotton Scarf",
+            "description": "Soft cotton scarf.",
+            "price": 29.99,
+            "categoryId": 9
+        },
+        {
+            "id": 1001,
+            "name": "Ankle Socks",
+            "description": "Comfortable ankle socks.",
+            "price": 9.99,
+            "categoryId": 10
+        },
+        {
+            "id": 1002,
+            "name": "Crew Socks",
+            "description": "Classic crew socks.",
+            "price": 11.99,
+            "categoryId": 10
+        },
+        {
+            "id": 1003,
+            "name": "No-Show Socks",
+            "description": "Invisible no-show socks.",
+            "price": 8.99,
+            "categoryId": 10
+        }
+    ]
+}

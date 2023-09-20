@@ -1,0 +1,6 @@
+{
+    "/category?name=:name": "/categories?_embed=items&name=:name",
+    "/category": "/categories?_embed=items",
+    "/categories/:id": "/categories/:id?_embed=items"
+
+}

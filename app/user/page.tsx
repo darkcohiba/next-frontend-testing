@@ -1,5 +1,3 @@
-
-
 import HomeButton from "../components/HomeButton"
 import SignUpButton from "../components/SignUpButton"
 
@@ -17,7 +15,7 @@ const UserPage = async () => {
 
     return (
         <>
-            <p>User page</p>
+            <p >User page</p>
             <p>{new Date().toLocaleTimeString()}</p>
             <ul>
                 {users.map(user=><li key={user.id}>{user.name}</li>)}
