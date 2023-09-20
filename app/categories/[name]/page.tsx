@@ -1,3 +1,4 @@
+import ProductCard from '@/app/components/ProductCard'
 import React from 'react'
 
 async function pages({params}) {
@@ -9,7 +10,7 @@ async function pages({params}) {
     <div>
       <h1>{categor[0].name} Page!</h1>
       <ol>
-        {categor[0].items?.map(item=><li key={item.id}>{item.name}</li>)}
+        {categor[0].items?.map(item=><ProductCard key={item.id} item={item}/>)}
       </ol>
     </div>
   )
