@@ -16,7 +16,7 @@ const CategoryBar = () => {
 
 
     const categoryButtons = category.map((cat)=>
-    <button className='h-24 w-24 m-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500' onClick={() => router.push(`categories/${cat.name}`, { scroll: false })}>
+    <button className='h-24 w-24 m-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:animate-pulse' onClick={() => router.push(`categories/${cat.name}`, { scroll: false })}>
         {cat.name}
     </button>
     )
