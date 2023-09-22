@@ -39,6 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [Tailwind CSS](https://tailwindcss.com/)
 - [React Hot Toast](https://react-hot-toast.com/)
 - [Zustand](https://react-hot-toast.com/)
+- [FlowBite React](https://www.flowbite-react.com/)
 
 
 ## To Dos
