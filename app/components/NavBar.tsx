@@ -7,11 +7,9 @@ const NavBar = () => {
                 <Link href="/" className="btn btn-ghost normal-case text-xl">Next.Wear</Link>
             </div>
             <div className="flex-none">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 z-10">
                     <li><Link href="/products">Products</Link></li>
                     <li><Link href="/category">Categories</Link></li>
-
-
                     <li>
                         <details>
                             <summary>

@@ -51,5 +51,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## To Dos
 
 - add a carosel of categories
+    - done
 - add a nav bar
+    - done
 - create login

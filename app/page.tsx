@@ -14,8 +14,7 @@ export default async function Home() {
   return (
     <main>
       <NavBar />
-      <CategoryBar />
-      <UserButton />
+      
     </main>
   )
 }

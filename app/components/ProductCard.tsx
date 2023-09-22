@@ -9,8 +9,8 @@ const ProductCard = ({ item }) => {
 
   return (
     
-    <div className="card w-96 bg-base-100 shadow-xl mt-2 mx-auto">
-    <figure><img src="https://placehold.co/900x300/a75502/FFF" alt="Shoes" /></figure>
+    <div className="card w-96 bg-base-100 shadow-xl m-2">
+    <figure><img src="https://placehold.co/900x300/a75502/FFF" alt={item.name} /></figure>
     <div className="card-body">
       <h2 className="card-title">{item.name}!</h2>
       <p>{item.description}</p>
