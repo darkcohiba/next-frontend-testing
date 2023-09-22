@@ -21,7 +21,7 @@ const CategoryBar = () => {
      onClick={() => router.push(`category/${cat.name}`, { scroll: false })}
      style={{ backgroundImage: `url(${cat.image})`, backgroundSize: 'cover' }}
      >
-        {cat.name}
+        {/* {cat.name} */}
     </button>
     )
   
