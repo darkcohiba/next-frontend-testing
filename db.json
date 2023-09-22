@@ -38,11 +38,12 @@
         {
             "id": 8,
             "name": "Belts",
-            "image":""
+            "image":"https://www.byrdie.com/thmb/KMj3gfoS1X2UMVFvdJ0BiXnq8sA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/biguselessbeltsareback-40ce1e4121e64dfe99e4eb20ad295784.png"
         },
         {
             "id": 9,
-            "name": "Scarves"
+            "name": "Scarves",
+            "image":"https://cdn11.bigcommerce.com/s-r7ihm/images/stencil/1280x1280/products/164/13678/Alpaca-A6_-_1__81964.1655216153.jpg?c=2"
         },
         {
             "id": 10,
