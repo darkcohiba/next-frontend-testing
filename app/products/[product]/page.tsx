@@ -1,8 +1,14 @@
+import NavBar from '@/app/components/NavBar'
 import React from 'react'
 
-const page = () => {
+const page = ({params}) => {
+  const decodedProduct = decodeURIComponent(params.product);
+
   return (
-    <div>page</div>
+    <div>
+      <NavBar />
+      <p className='text-black'>Product Page coming for {decodedProduct} coming soon!</p>
+    </div>
   )
 }
 

@@ -13,11 +13,8 @@ export default async function Home() {
 
   return (
     <main>
-      {/* <NavBar /> */}
-      <h1>Welcome to this Eccommerce Site on Next.js</h1>
-
+      <NavBar />
       <CategoryBar />
-
       <UserButton />
     </main>
   )

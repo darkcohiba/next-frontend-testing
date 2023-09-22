@@ -2,35 +2,43 @@
     "categories": [
         {
             "id": 1,
-            "name": "T-Shirts"
+            "name": "T-Shirts",
+            "image": "https://shopproclub.com/media/catalog/product/cache/795dcedb0397fa9ff327dee129d8bc87/_/d/_dsc7819_14.jpg"
         },
         {
             "id": 2,
-            "name": "Jeans"
+            "name": "Jeans",
+            "image": "https://aritzia.scene7.com/is/image/Aritzia/s23_98_a06_104396_27022_on_b?wid=1200"
         },
         {
             "id": 3,
-            "name": "Jackets"
+            "name": "Jackets",
+            "image": "https://image1.superdry.com/static/images/optimised/zoom/upload9223368955666055318.jpg"
         },
         {
             "id": 4,
-            "name": "Shoes"
+            "name": "Shoes",
+            "image": "https://cdn.fleetfeet.com/assets/SauconyFinesse_Sept_6.jpg/dynamic:1-aspect:1.3333333333333-fit:cover-strategy:entropy/SauconyFinesse_Sept_6--1200.jpg"
         },
         {
             "id": 5,
-            "name": "Hats"
+            "name": "Hats",
+            "image": "https://static.zara.net/photos///2023/I/0/1/p/9065/301/527/22/w/1920/9065301527_2_4_1.jpg?ts=1688394236782"
         },
         {
             "id": 6,
-            "name": "Sunglasses"
+            "name": "Sunglasses",
+            "image":"https://cdn-img.prettylittlething.com/d/2/d/0/d2d09fcf7a2b75b6d3eebce00c1ce06f3e7f434a_cmt3330_1.jpg"
         },
         {
             "id": 7,
-            "name": "Watches"
+            "name": "Watches",
+            "image":"https://www.cnet.com/a/img/resize/39f033e9a7c14fe09f80222739e78fc306026578/hub/2022/09/20/58a08841-fe50-446c-99db-cb7cad007127/apple-watch-ultra-9633.jpg?auto=webp&fit=crop&height=1200&width=1200"
         },
         {
             "id": 8,
-            "name": "Belts"
+            "name": "Belts",
+            "image":""
         },
         {
             "id": 9,

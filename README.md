@@ -36,10 +36,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## NPM Packages in use:
 
-- [Tailwind CSS](https://tailwindcss.com/)
+
 - [React Hot Toast](https://react-hot-toast.com/)
 - [Zustand](https://react-hot-toast.com/)
+- CSS
+    - [Tailwind CSS](https://tailwindcss.com/)
+    - [Daisy UI](https://daisyui.com/)
+
+## Packages Tries and Removed
 - [FlowBite React](https://www.flowbite-react.com/)
+    - Not good and integration failed to look good.
 
 
 ## To Dos

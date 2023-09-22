@@ -1,4 +1,5 @@
 import HomeButton from "../components/HomeButton"
+import NavBar from "../components/NavBar";
 import SignUpButton from "../components/SignUpButton"
 
 type User = {
@@ -15,6 +16,7 @@ const UserPage = async () => {
 
     return (
         <>
+            <NavBar />
             <p >User page</p>
             <p>{new Date().toLocaleTimeString()}</p>
             <ul>
