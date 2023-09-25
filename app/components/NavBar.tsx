@@ -1,6 +1,11 @@
 import Link from 'next/link'
+import { getServerSession } from "next-auth/next"
+import { options } from '../api/auth/[...nextauth]/options'
 
-const NavBar = () => {
+const NavBar = async () => {
+    const session = await getServerSession(options)
+    // console.log(session)
+
     return (
         <div className="navbar bg-base-100">
             <div className="flex-1">
@@ -17,7 +22,9 @@ const NavBar = () => {
                             </summary>
                             <ul className="p-2 bg-base-100">
                                 <li><Link href="/user">Users</Link></li>
+                                <li><Link href="/user/login">Login</Link></li>
                                 <li><Link href="/user/signup">Signup</Link></li>
+                                {session ? <li><Link href="/user/details">Details</Link></li> : null }
                             </ul>
                         </details>
                     </li>

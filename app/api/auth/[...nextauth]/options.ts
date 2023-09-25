@@ -49,7 +49,8 @@ export const options: NextAuthOptions = {
                 const user = {
                     id: 1,
                     username: "cohiba",
-                    password: "123"
+                    password: "123",
+                    name: "sam"
                 }
 
                 if (credentials?.username === user.username && credentials?.password === user.password){
