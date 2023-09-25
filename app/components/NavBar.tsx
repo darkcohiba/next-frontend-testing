@@ -13,7 +13,7 @@ const NavBar = () => {
                     <li>
                         <details>
                             <summary>
-                                Parent
+                                User
                             </summary>
                             <ul className="p-2 bg-base-100">
                                 <li><Link href="/user">Users</Link></li>

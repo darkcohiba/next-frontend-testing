@@ -8,9 +8,7 @@ const Signup = () => {
     return (
         <div>
             <NavBar />
-            <h1>Sign up page</h1>
-            <p>Sign Up form Below</p>
-            <HomeButton />
+
         </div>
     )
 }
