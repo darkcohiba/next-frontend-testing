@@ -5,13 +5,21 @@ import { options } from '@/app/api/auth/[...nextauth]/options'
 import NavBar from '@/app/components/NavBar'
 const page = async () => {
   const session = await getServerSession(options)
-  console.log(session)
+  if (session){
   return (
     <div>
       <NavBar />
       <p>user data</p>
+      <p>{session?.user.name}</p>
     </div>
-  )
+  )}else {
+    return (
+      <div>
+        <NavBar />
+        <p>Please log in</p>
+      </div>
+    )
+  }
 }
 
 export default page

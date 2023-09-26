@@ -22,9 +22,10 @@ const NavBar = async () => {
                             </summary>
                             <ul className="p-2 bg-base-100">
                                 <li><Link href="/user">Users</Link></li>
-                                <li><Link href="/user/login">Login</Link></li>
-                                <li><Link href="/user/signup">Signup</Link></li>
-                                {session ? <li><Link href="/user/details">Details</Link></li> : null }
+                                {!session ? <li><Link href="/api/auth/signin">Login</Link></li> : null}
+                                {/* {!session ? <li><Link href="/user/signup">Signup</Link></li> : null} */}
+                                {session ? <li><Link href="/user/details">Details</Link></li> : null}
+                                {session ? <li><Link href="/api/auth/signout">Sign Out</Link></li> : null}
                             </ul>
                         </details>
                     </li>
